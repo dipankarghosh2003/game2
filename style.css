@@ -78,12 +78,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-size: 25px;
     display: none;opacity: 0;
 }
-#game-area #page1{
+#game-area #pageContainer{
     display: block;
    
 }
 
-#game-area .gamearea {
+#game-area .gameContainer {
     border:0px solid red;
     width: 100%;
     position: absolute;
@@ -217,26 +217,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #game-area .topc img{
     width: 100%;
 }
-/* #game-area #topc1 {
-    left: 66px;
-    transform: rotate(-20deg);
-    top: 7px;
-}
-#game-area #topc2 {
-    left: 102px;
-    transform: rotate(-7deg);
-    top: 3px;
-}
-#game-area #topc3 {
-    left: 140px;
-    transform: rotate(1deg);
-    top: 5px;
-}
-#game-area #topc4 {
-    left: 175px;
-    transform: rotate(14deg);
-    top: 15px;
-} */
+
 
 .animateCards{
     animation: cardpileanim 1s forwards ;
@@ -276,14 +257,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     width: 115px;
     display: none;
 }
-#game-area #confetti3 {
+#game-area #confettiContainer {
     position: absolute;
     top: 0px;
     width: 100%;
     transform: scale(0.0);
     top: 320px;
 }
-#game-area #confetti3 img{
+#game-area #confettiContainer img{
     width: 100%;
 }
 #game-area #confetti4 {
@@ -321,25 +302,25 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     }
 }
 
-#game-area #money img{
+#game-area #currencyContainer img{
     width: 100%;
 }
-#game-area #money {
+#game-area #currencyContainer {
     width: 100%;
     position: absolute;
     top: 320px;
     display: none;
 }
-#game-area #currencyimg {
+#game-area #currency {
     position: relative;
     margin: 0 auto;
     width: 168px;
 }
-#game-area #money {
+/*#game-area #currencyContainer {
     width: 100%;
     position: absolute;
     top: 320px;
-}
+}*/
 #game-area #coins {
     width: 100%;
 }
@@ -383,11 +364,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
         
     }
 } 
-#game-area #phone {
+#game-area #phoneScreen {
     position: absolute;
     top: 100%;
     z-index: 98;
 }
-#game-area #phone img{
+#game-area #phoneScreen img{
     width: 100%;
 }
